@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Caxire/.gradle/caches/transforms-3/5e5f49eb94b100e68ce83db41f1dfbb1/transformed/jetified-zxing-android-embedded-4.2.0/res/layout/zxing_barcode_scanner.xml" value="0.1983108108108108" />
+        <entry key="..\:/Users/Caxire/.gradle/caches/transforms-3/5e5f49eb94b100e68ce83db41f1dfbb1/transformed/jetified-zxing-android-embedded-4.2.0/res/layout/zxing_capture.xml" value="0.1983108108108108" />
+        <entry key="..\:/Users/Caxire/.gradle/caches/transforms-3/d24221e813196fbf1afee6bc6216f6c1/transformed/jetified-sdk-3.8.1/res/layout/mpsdk_activity_payment_methods.xml" value="0.25" />
+        <entry key="..\:/Users/Caxire/.gradle/caches/transforms-3/d24221e813196fbf1afee6bc6216f6c1/transformed/jetified-sdk-3.8.1/res/layout/mpsdk_activity_review_confirm.xml" value="0.15" />
+        <entry key="..\:/Users/Caxire/.gradle/caches/transforms-3/d24221e813196fbf1afee6bc6216f6c1/transformed/jetified-sdk-3.8.1/res/layout/mpsdk_card_front.xml" value="0.21" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/drawable/bordEx.xml" value="0.3101851851851852" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/drawable/borde.xml" value="0.3101851851851852" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/activity_main.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/activity_principal.xml" value="0.33" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/activity_registro.xml" value="0.1" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_Tankeo.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_compartir.xml" value="0.1" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_control.xml" value="0.33" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_home.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_navigation__compartir.xml" value="0.26851851851851855" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_navigation__perfil.xml" value="0.26851851851851855" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_navigation__recarga.xml" value="0.26851851851851855" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_navigation__tankeo.xml" value="0.26851851851851855" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_perfil.xml" value="0.22" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_perfil2.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_recarga.xml" value="0.25" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_saldo.xml" value="0.30572916666666666" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/fragment_tankeo.xml" value="0.1" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/lista_movimientos.xml" value="0.33" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/lista_recargas.xml" value="0.1983108108108108" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/layout/listmovimientos.xml" value="0.33" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/menu/bottom_menu.xml" value="0.30572916666666666" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2898148148148148" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/Caxire/AndroidStudioProjects/tankeo10/app/src/main/res/mipmap/ic_launcher.xml" value="0.1171875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

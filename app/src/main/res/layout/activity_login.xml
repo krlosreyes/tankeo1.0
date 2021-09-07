@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/loginImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:transitionName="logoImageTrans" />
+
+    <TextView
+        android:id="@+id/bienvenidoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="26dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Bienvenido a Tankeo 1.0"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:transitionName="TextTrans" />
+
+    <TextView
+        android:id="@+id/continuarlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Inicia sesion para continuar"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black"
+        android:textCursorDrawable="@color/black"
+        android:textSize="20dp"
+        android:transitionName="iniciaTextTrans" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/usuarioTextField"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Email"
+            android:transitionName="emailInputTextTrans"
+            app:boxBackgroundColor="@color/white"
+            app:boxStrokeColor="@color/black"
+            app:hintTextColor="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColorHighlight="@color/black"
+                android:textColorLink="@color/black"
+                android:textCursorDrawable="@color/black"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/contrasenaTextField"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Contraseña"
+            app:boxBackgroundColor="@color/white"
+            app:boxStrokeColor="@color/black"
+            app:hintTextColor="@color/black"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passEditText"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:inputType="textPassword"
+                android:transitionName="passInputTrans"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="@color/black">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:id="@+id/recupContra"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Recuperar contraseña"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/white"
+                android:textSize="15dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/inicioSesion"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="70dp"
+            android:shadowColor="@color/teal_200"
+            android:text="INICIO"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:transitionName="buttonInicioTrans"
+            app:backgroundTint="@color/black" />
+
+        <TextView
+            android:id="@+id/regisUsuario"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Eres nuevo, Registrate!"
+            android:transitionName="newUserTrans"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

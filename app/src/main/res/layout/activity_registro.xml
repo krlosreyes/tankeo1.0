@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registro_Activity"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/regisImageView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/logo"
+                android:transitionName="logoImageTrans" />
+
+            <TextView
+                android:id="@+id/bienvenidoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Bienvenido,"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:transitionName="textTrans" />
+
+            <TextView
+                android:id="@+id/contLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Registrate para usar Tankeo"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:transitionName="textTrans" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="14dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/cedulaUser"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:hint="Cedula"
+                    app:boxBackgroundColor="@color/white"
+                    app:boxStrokeColor="@color/black"
+                    app:hintTextColor="@color/black">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/cedulaEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textColorHighlight="@color/black"
+                        android:textColorLink="@color/black"
+                        android:textCursorDrawable="@color/black"
+                        android:inputType="number"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/nomUser"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:hint="Nombre"
+                    app:boxBackgroundColor="@color/white"
+                    app:boxStrokeColor="@color/black"
+                    app:hintTextColor="@color/black">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/nomEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textColorHighlight="@color/black"
+                        android:textColorLink="@color/black"
+                        android:textCursorDrawable="@color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/apellidoUser"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:hint="Apellido"
+                    app:boxBackgroundColor="@color/white"
+                    app:boxStrokeColor="@color/black"
+                    app:hintTextColor="@color/black">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/apeEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textColorHighlight="@color/black"
+                        android:textColorLink="@color/black"
+                        android:textCursorDrawable="@color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/celularUser"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:hint="Celular"
+                    app:boxBackgroundColor="@color/white"
+                    app:boxStrokeColor="@color/black"
+                    app:hintTextColor="@color/black">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/celularEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textColorHighlight="@color/black"
+                        android:textColorLink="@color/black"
+                        android:textCursorDrawable="@color/black"
+                        android:inputType="phone"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/emailTextField"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:hint="Email"
+                    android:transitionName="emailInputTextTrans"
+                    app:boxBackgroundColor="@color/white"
+                    app:boxStrokeColor="@color/black"
+                    app:hintTextColor="@color/black">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mailEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textColorHighlight="@color/black"
+                        android:textColorLink="@color/black"
+                        android:textCursorDrawable="@color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/contrasenaTextField"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:hint="Contraseña"
+                    android:transitionName="passInputTrans"
+                    app:boxBackgroundColor="@color/white"
+                    app:boxStrokeColor="@color/black"
+                    app:hintTextColor="@color/black"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/passEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:inputType="textPassword"
+                        android:textColorHighlight="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textColorLink="@color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/confContrasena"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:hint="Confirmar contraseña"
+                    app:boxBackgroundColor="@color/white"
+                    app:boxStrokeColor="@color/black"
+                    app:hintTextColor="@color/black"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/confPassEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:inputType="textPassword"
+                        android:textColorHighlight="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textColorLink="@color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/inicioSesion"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:shadowColor="@color/teal_200"
+                    android:text="REGISTRAR"
+                    android:transitionName="btnRegisTrans"
+                    app:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/nuevoUsuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Tienes una cuenta?   Inicia sesion"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:transitionName="newUserTextTrans" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Tankeo10" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_normal</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+
+        <!-- Secondary brand color. -->
+
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="BottomNavigation">
+        <item name="android:background">@color/green_dark</item>
+        <item name="itemIconTint">@color/green_light_2</item>
+        <item name="itemTextColor">@color/green_light_2</item>
+    </style>
+</resources>
