@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/controlFragment">
+
+    <fragment
+        android:id="@+id/controlFragment"
+        android:name="com.example.tankeo10.ControlFragment"
+        android:label="fragment_control"
+        tools:layout="@layout/fragment_control" >
+        <action
+            android:id="@+id/action_controlFragment_to_perfilFragment2"
+            app:destination="@id/perfilFragment2" />
+        <action
+            android:id="@+id/action_controlFragment_to_recargaFragment"
+            app:destination="@id/recargaFragment" />
+        <action
+            android:id="@+id/action_controlFragment_to_saldoFragment"
+            app:destination="@id/saldoFragment" />
+        <action
+            android:id="@+id/action_controlFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/saldoFragment"
+        android:name="com.example.tankeo10.SaldoFragment"
+        android:label="fragment_saldo"
+        tools:layout="@layout/fragment_Tankeo" >
+        <action
+            android:id="@+id/action_saldoFragment_to_recargaFragment"
+            app:destination="@id/recargaFragment" />
+        <action
+            android:id="@+id/action_saldoFragment_to_perfilFragment2"
+            app:destination="@id/perfilFragment2" />
+        <action
+            android:id="@+id/action_saldoFragment_to_controlFragment"
+            app:destination="@id/controlFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recargaFragment"
+        android:name="com.example.tankeo10.RecargaFragment"
+        android:label="fragment_recarga"
+        tools:layout="@layout/fragment_recarga" >
+        <action
+            android:id="@+id/action_recargaFragment_to_perfilFragment2"
+            app:destination="@id/perfilFragment2" />
+        <action
+            android:id="@+id/action_recargaFragment_to_saldoFragment"
+            app:destination="@id/saldoFragment" />
+        <action
+            android:id="@+id/action_recargaFragment_to_controlFragment"
+            app:destination="@id/controlFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/compartirFragment"
+        android:name="com.example.tankeo10.CompartirFragment"
+        android:label="fragment_compartir"
+        tools:layout="@layout/fragment_compartir" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.tankeo10.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/perfilFragment2"
+        android:name="com.example.tankeo10.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_perfilFragment2_to_recargaFragment"
+            app:destination="@id/recargaFragment" />
+        <action
+            android:id="@+id/action_perfilFragment2_to_saldoFragment"
+            app:destination="@id/saldoFragment" />
+        <action
+            android:id="@+id/action_perfilFragment2_to_controlFragment"
+            app:destination="@id/controlFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.tankeo10.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/registro_Activity"
+        android:name="com.example.tankeo10.registro_Activity"
+        android:label="activity_registro"
+        tools:layout="@layout/activity_registro" />
+</navigation>

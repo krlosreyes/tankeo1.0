@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">tankeo1.0</string>
+    <string name="logotipo">logotipo</string>
+    <string name="title_activity_principal">principal</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
